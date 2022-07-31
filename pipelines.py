@@ -17,7 +17,7 @@ class DirtycoinPipeline:
             port = '3307',
             user = 'root',
             password = '1111',
-            database = 'phong12'
+            database = 'dirtycoin'
         )
 
         self.cur = self.conn.cursor()
